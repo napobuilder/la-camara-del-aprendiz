@@ -1,8 +1,8 @@
 // src/features/catechism/components/StudyCard.tsx
 
-import React, { useRef, useEffect } from 'react';
+import { useRef, useEffect } from 'react';
 import FramedPanel from '../../../components/ui/FramedPanel';
-import type { Question } from '../../../types';
+
 
 interface StudyCardProps {
   question: string;

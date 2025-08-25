@@ -1,6 +1,8 @@
-import React from 'react';
+interface SkullIconProps {
+  className?: string;
+}
 
-const SkullIcon = ({ className }) => (
+const SkullIcon: React.FC<SkullIconProps> = ({ className }) => (
     <svg viewBox="0 0 36 36" xmlns="http://www.w3.org/2000/svg" className={className} preserveAspectRatio="xMidYMid meet">
         <g>
             <path fill="#D1D5DB" d="M34 16C34 6 26.837 0 18 0C9.164 0 2 6 2 16c0 5.574.002 10.388 6 12.64V33a3 3 0 1 0 6 0v-3.155c.324.027.659.05 1 .07V33a3 3 0 1 0 6 0v-3.085c.342-.021.676-.043 1-.07V33a3 3 0 0 0 6 0v-4.36c5.998-2.252 6-7.066 6-12.64z"></path>

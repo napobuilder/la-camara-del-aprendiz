@@ -1,4 +1,5 @@
-import React, { createContext, useContext, useRef, useState, useCallback, ReactNode } from 'react';
+import { createContext, useContext, useRef, useState, useCallback } from 'react';
+import type { ReactNode } from 'react'; // <-- CORRECCIÓN CLAVE
 
 // --- Definición de Pistas ---
 

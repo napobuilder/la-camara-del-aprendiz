@@ -3,7 +3,7 @@ import { useNavigate } from 'react-router-dom';
 import { useStudyStore } from '../../../stores/studyStore';
 import MasonLogo from '/Mason-Logo-PNG5.png';
 import { useAudio } from '../../../context/AudioContext';
-import React, { useEffect } from 'react';
+import { useEffect } from 'react';
 
 export function ModeSelectionScreen() {
   const navigate = useNavigate();
