@@ -1,0 +1,10 @@
+# Archivo: netlify.toml
+
+[build]
+  command = "npm run build" # El comando para construir tu sitio
+  publish = "dist"          # El directorio que Vite genera
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200

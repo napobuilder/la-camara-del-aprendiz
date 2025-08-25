@@ -1,0 +1,41 @@
+{
+  "name": "la-camara-del-aprendiz",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "description": "Una aplicación de estudio gamificada para el catecismo del Aprendiz Masón, construida con React y neuroaprendizaje.",
+  "author": "Tu Nombre <tu@email.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/napobuilder/la-camara-del-aprendiz.git"
+  },
+  "scripts": {
+    "dev": "vite",
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc -b && vite build",
+    "lint": "eslint .",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
+    "react-router-dom": "^7.8.0",
+    "tailwindcss": "^3.4.17",
+    "zustand": "^5.0.8"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.33.0",
+    "@types/react": "^19.1.10",
+    "@types/react-dom": "^19.1.7",
+    "@vitejs/plugin-react": "^5.0.0",
+    "autoprefixer": "^10.4.21",
+    "eslint": "^9.33.0",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.20",
+    "globals": "^16.3.0",
+    "postcss": "^8.5.6",
+    "typescript": "~5.8.3",
+    "typescript-eslint": "^8.39.1",
+    "vite": "^7.1.2"
+  }
+}
