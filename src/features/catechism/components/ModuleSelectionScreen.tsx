@@ -10,7 +10,7 @@ export const ModuleSelectionScreen = () => {
     const { modules, selectModule } = useStudyStore();
     
     // CORRECCIÓN: Usar 'playAmbiance' en lugar de 'playAudioByStyle'
-    const { playAmbiance, playSfx } = useAudio();
+    const { playAmbiance } = useAudio();
 
     useEffect(() => {
       playAmbiance('modules');
